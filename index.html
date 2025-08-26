@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishal– Portfolio</title>
+    <meta
+      name="description"
+      content="Vishal Rathore – Creative Web Designer & Frontend Developer. Animated, responsive portfolio with projects, skills, and contact."
+    />
+    <meta
+      name="keywords"
+      content="Vishal Rathore, portfolio, web designer, frontend developer, HTML, CSS, JavaScript"
+    />
+
+    <link rel="stylesheet" href="/style.css">
+
+     <!-- Favicon (optional) -- /> -->
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%2300d1ff'/><text x='50' y='62' font-size='58' text-anchor='middle' fill='white' font-family='Arial'>P</text>
+      </svg>" />
+
+    
+
+
+
+
+    <body>
+      
+    <!-- Header / Navbar -->
+    <header>
+      <div class="container nav">
+        <a class="brand" href="#home">
+          <div class="logo">P</div>
+          <strong>Portfolio</strong>
+        </a>
+        <nav class="navlinks" id="navlinks">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+          <button class="btn" id="themeToggle" aria-label="Toggle theme">
+            🌗 Theme
+          </button>
+        </nav>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero container" id="home">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow reveal">
+            <span class="glow-dot"></span> Transforming Ideas into Websites
+          </div>
+          <h1 class="reveal" style="transition-delay: 0.06s">
+            Hi, I'm Vishal Singh Rathore
+            <span
+              style="
+                background: linear-gradient(
+                  135deg,
+                  var(--accent),
+                  var(--accent-2)
+                );
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+              "
+            >
+              MERN Stack Developer
+            </span>
+            & Web Designer
+          </h1>
+          <p class="lead reveal" style="transition-delay: 0.12s">
+            I craft colorful, animated and responsive web experiences that feel
+            premium and perform fast.
+          </p>
+          <div class="cta reveal" style="transition-delay: 0.18s">
+            <a class="btn primary" href="#projects">🚀 See Projects</a>
+            <a class="btn" href="/resume/Vishal-Rathore.pdf" download
+              >📄 Download CV</a
+            >
+          </div>
+        </div>
+        <div class="avatar-card reveal" style="transition-delay: 0.2s">
+          <img class="avatar" src="/images/banner.png" alt=" portrait " />
+          <div class="rings" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="container" id="about">
+      <h2 class="section-title reveal">About Me</h2>
+      <p class="section-sub reveal" style="max-width: 800px">
+        I'm Vishal Singh Rathore, a passionate MERN Stack Developer and Web
+        Designer. I enjoy creating responsive, fast, and visually appealing
+        websites that deliver seamless user experiences. My focus is on clean
+        code, performance, and modern design principles.
+      </p>
+
+      <div class="about">
+        <div class="card reveal">
+          <h3>What I Do</h3>
+          <ul>
+            <li>Full-stack web development with MERN</li>
+            <li>Modern, responsive websites & dashboards</li>
+            <li>Creative UI/UX with animations & effects</li>
+            <li>API integration & backend solutions</li>
+          </ul>
+        </div>
+        <div class="card reveal" style="transition-delay: 0.06s">
+          <h3>Highlights</h3>
+          <ul>
+            <li>Hands-on projects in MERN stack & web design</li>
+            <li>Strong skills in HTML, CSS, JavaScript, React, Node.js</li>
+            <li>Focused on clean, scalable, and maintainable code</li>
+            <li>Always eager to learn and explore new technologies</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="container" id="skills">
+      <h2 class="section-title reveal">Skills</h2>
+      <p class="section-sub reveal">
+        MERN Stack • Frontend & Backend Development
+      </p>
+
+      <div class="skills">
+        <div class="skill reveal">
+          <strong>HTML5</strong>
+          <div class="bar" data-level="95"></div>
+        </div>
+        <div class="skill reveal" style="transition-delay: 0.04s">
+          <strong>CSS3 / Tailwind</strong>
+          <div class="bar" data-level="92"></div>
+        </div>
+        <div class="skill reveal" style="transition-delay: 0.08s">
+          <strong>JavaScript (ES6+)</strong>
+          <div class="bar" data-level="90"></div>
+        </div>
+        <div class="skill reveal" style="transition-delay: 0.12s">
+          <strong>React.js</strong>
+          <div class="bar" data-level="88"></div>
+        </div>
+        <div class="skill reveal" style="transition-delay: 0.16s">
+          <strong>Node.js & Express</strong>
+          <div class="bar" data-level="80"></div>
+        </div>
+        <div class="skill reveal" style="transition-delay: 0.2s">
+          <strong>MongoDB</strong>
+          <div class="bar" data-level="78"></div>
+        </div>
+        <div class="skill reveal" style="transition-delay: 0.24s">
+          <strong>UI/UX Design</strong>
+          <div class="bar" data-level="85"></div>
+        </div>
+        <div class="skill reveal" style="transition-delay: 0.28s">
+          <strong>Git & GitHub</strong>
+          <div class="bar" data-level="82"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container" id="projects">
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <p class="section-sub reveal">
+        A mix of UI animations, landing pages and tools
+      </p>
+
+      <div class="grid">
+        <article class="card reveal">
+          <div class="thumb">
+            <img
+              src="/images/travel.png"
+              alt="Incredible India Website Preview"
+            />
+          </div>
+          <div class="content">
+            <span class="tag">Web Development</span>
+            <span class="tag">Tourism Project</span>
+            <h3>Incredible India Website</h3>
+            <p>
+              A responsive tourism website showcasing India's culture, heritage,
+              and destinations with engaging design and smooth navigation.
+            </p>
+            <a
+              class="btn"
+              href="https://vishalrathore00.github.io/Incredible-India/"
+              >Demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card reveal" style="transition-delay: 0.04s">
+          <div class="thumb">
+            <img src="/images/car.png" alt="Car Rental Website Preview" />
+          </div>
+          <div class="content">
+            <span class="tag">Web Development</span>
+            <span class="tag">Rental Service</span>
+            <h3>Car Rental Website</h3>
+            <p>
+              A responsive car rental platform with booking functionality,
+              vehicle listings, and a modern user-friendly design.
+            </p>
+            <a class="btn" href="https://car-rental-peach-psi.vercel.app/"
+              >Demo</a
+            >
+          </div>
+        </article>
+
+        <article class="card reveal" style="transition-delay: 0.08s">
+          <div class="thumb">
+            <img src="/images/portfolio.png" alt="Animated Portfolio Preview" />
+          </div>
+          <div class="content">
+            <span class="tag">Portfolio</span>
+            <span class="tag">Responsive</span>
+            <h3>First Portfolio Website</h3>
+            <p>
+              A modern, responsive portfolio showcasing my projects, skills, and
+              experience — featuring smooth animations, dark/light theme toggle, and a
+              professional design.
+            </p>
+            <a class="btn" href="#">Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="container" id="education">
+      <h2 class="section-title reveal">Education</h2>
+      <p class="section-sub reveal">My academic journey & learning path</p>
+      <div class="grid">
+        <div class="service reveal">
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p>
+            Completed graduation in Computer Applications with a focus on
+            software development, web technologies, and programming.
+          </p>
+          <p><strong>Timeline:</strong> 2022 – 2025</p>
+        </div>
+        <div class="service reveal" style="transition-delay: 0.04s">
+          <h3>Higher Secondary Education</h3>
+          <p>
+            Completed 11th and 12th standard in Science stream with subjects
+            including Physics, Chemistry, and Mathematics.
+          </p>
+          <p><strong>Timeline:</strong> 2020 – 2022</p>
+        </div>
+        <div class="service reveal" style="transition-delay: 0.08s">
+          <h3>Secondary Education</h3>
+          <p>
+            Completed 10th standard with a strong foundation in Mathematics and
+            Computer Science.
+          </p>
+          <p><strong>Timeline:</strong> 2019 – 2020</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container" id="contact">
+      <h2 class="section-title reveal">Get in touch</h2>
+      <p class="section-sub reveal">
+        Have a project in mind? Let's build something beautiful.
+      </p>
+      <form class="reveal" id="contactForm">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Email address" required />
+        <textarea
+          name="message"
+          placeholder="Tell me about your project…"
+          required
+        ></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+          "
+        >
+          <p>© <span id="year"></span> Vishal Rathore. All rights reserved.</p>
+          <div style="display: flex; gap: 10px; align-items: center">
+            <a
+              class="btn"
+              href="https://github.com/vishalrathore00?tab=repositories"
+              >GitHub</a
+            >
+            <a class="btn" href="https://www.linkedin.com/in/vishalrathore00/"
+              >LinkedIn</a
+            >
+            <!-- <a class="btn" href="#"></a> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Navbar mobile toggle
+      const menuBtn = document.getElementById("menuBtn");
+      const navlinks = document.getElementById("navlinks");
+      menuBtn.addEventListener("click", () =>
+        navlinks.classList.toggle("open")
+      );
+
+      // Theme toggle (persist)
+      const themeToggle = document.getElementById("themeToggle");
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "light")
+        document.documentElement.classList.add("light");
+      themeToggle.addEventListener("click", () => {
+        document.documentElement.classList.toggle("light");
+        localStorage.setItem(
+          "theme",
+          document.documentElement.classList.contains("light")
+            ? "light"
+            : "dark"
+        );
+      });
+
+      // Year set
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // Reveal on scroll using IntersectionObserver
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("revealed");
+              // Animate skill bars when section visible
+              if (e.target.classList.contains("skill")) {
+                const bar = e.target.querySelector(".bar");
+                const level = bar.getAttribute("data-level");
+                bar.style.transition = "transform .9s cubic-bezier(.2,.8,.2,1)";
+                bar.style.transform = `scaleX(${level / 100})`;
+              }
+              io.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.18 }
+      );
+
+      document
+        .querySelectorAll(".reveal, .skill")
+        .forEach((el) => io.observe(el));
+
+      // Contact form (demo only)
+      document.getElementById("contactForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const data = new FormData(e.target);
+        const name = data.get("name");
+        alert(`Thanks, ${name}! Your message has been sent (demo).`);
+        e.target.reset();
+      });
+
+      // Hover interaction for skill bars
+      document.querySelectorAll(".skill").forEach((card) => {
+        card.addEventListener("mousemove", (e) => {
+          card.style.transform = "translateY(-3px)";
+        });
+        card.addEventListener("mouseleave", () => {
+          card.style.transform = "";
+        });
+      });
+    </script>
+  </body>
+</html>
