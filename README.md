@@ -36,7 +36,7 @@ The site is fully responsive, fast, and includes smooth animations for a modern 
 
 ## 🚀 Live Demo
 
-🔗 https://vishalrathore00.github.io/portfolio-website/
+🔗    (https://vishalrathoreportfolio.netlify.app/)
 
 ---
 
