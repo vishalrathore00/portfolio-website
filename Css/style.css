@@ -364,11 +364,13 @@ section {
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 18px;
+  gap: 28px; /* more spacing between cards */
+  justify-content: center; /* keeps them centered */
 }
 
 .card {
-  grid-column: span 4;
+  grid-column: span 6; /* slightly bigger than before */
+  max-width: 520px; /* prevents them from stretching too wide */
   position: relative;
   overflow: hidden;
   border-radius: 18px;
@@ -395,7 +397,7 @@ section {
 }
 
 .card .content {
-  padding: 16px;
+  padding: 18px;
 }
 
 .tag {
@@ -415,15 +417,18 @@ section {
 
 @media (max-width: 980px) {
   .card {
-    grid-column: span 6;
+    grid-column: span 6; /* two per row on medium screens */
+    max-width: none; /* allow natural width */
   }
 }
 
 @media (max-width: 640px) {
   .card {
-    grid-column: span 12;
+    grid-column: span 12; /* full width on small screens */
   }
 }
+
+
 
 /* Services */
 .service {
